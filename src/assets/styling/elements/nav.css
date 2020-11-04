@@ -38,8 +38,9 @@
     display: none;
   }
   .topnav a.icon {
-    float: right;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
