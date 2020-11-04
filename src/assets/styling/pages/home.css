@@ -4,7 +4,6 @@ html {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
 }
 
 .topnav a {
@@ -18,13 +17,11 @@ html {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: #73FC00;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  color: #73FC00;
 }
 
 .topnav .icon {

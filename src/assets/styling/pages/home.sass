@@ -1,12 +1,11 @@
 $black: #252525
+$limey: #73FC00
 
 html
     background: $black
 
 .topnav
     overflow: hidden
-    background-color: #333
-
     & a
         float: left
         display: block
@@ -17,12 +16,10 @@ html
         font-size: 17px
 
     & a:hover
-        background-color: #ddd
-        color: black
+        color: $limey
 
     & a.active
-        background-color: #4CAF50
-        color: white
+        color: $limey
 
     & .icon
         display: none
