@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,aAAa,EAAE,MAAM;EACrB,WAAW,EAAE,MAAM;CAAG;;AAE1B,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAAG;;AAE9B,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAAG",
+    "sources": [
+        "request.sass"
+    ],
+    "names": [],
+    "file": "request.css"
+}
