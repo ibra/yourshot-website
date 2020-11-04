@@ -2,8 +2,54 @@ html {
   background: #252525;
 }
 
+.center {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.yourshot-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
 .topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
+  border-radius: 5px;
+  background: #3b3b3b;
 }
 
 .topnav a {
@@ -26,6 +72,18 @@ html {
 
 .topnav .icon {
   display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .center {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .center {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -1,11 +1,32 @@
 $black: #252525
 $limey: #73FC00
 
+@mixin center()
+    display: flex
+    justify-content: center
+    justify-items: center
+    justify-self: center
+    align-content: center
+    align-items: center
+    align-self: center
+
 html
     background: $black
 
+.center
+    margin-top: 10%
+    @include center()
+
+.yourshot-main
+    @include center()
+
 .topnav
+    display: flex
+    justify-items: center
+    justify-content: center
     overflow: hidden
+    border-radius: 5px
+    background: #3b3b3b
     & a
         float: left
         display: block
@@ -23,6 +44,14 @@ html
 
     & .icon
         display: none
+
+@media screen and ( max-width: 1000px )
+    .center
+        width: 800px
+
+@media screen and ( max-width: 800px)
+    .center
+        width: 500px
 
 @media screen and (max-width: 600px)
     .topnav a:not(:first-child)
