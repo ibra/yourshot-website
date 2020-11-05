@@ -39,7 +39,7 @@ form {
           align-items: center;
 }
 
-input[type="email"] {
+input[type="email"], input[type="url"] {
   outline: none;
   border: none;
   padding: 10px;

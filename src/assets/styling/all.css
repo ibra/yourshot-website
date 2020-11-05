@@ -87,7 +87,7 @@
     font-family: barcade;
   }
 
-  input[type="email"], input[type="text"] {
+  input[type="email"], input[type="text"], input[type="url"] {
     font-family: barcade;
     color: white;
   }
@@ -95,6 +95,6 @@
   ::placeholder {
     text-align: center;
     font-family: barcade;
-    color: black;
-    opacity: 0.3;
+    color: whitesmoke;
+    opacity: 0.5;
   }
