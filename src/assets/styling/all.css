@@ -70,7 +70,7 @@
   h5{
     color: white;
     font-family: barcade;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 200%;
     text-align: center;
   }
@@ -78,7 +78,23 @@
   label {
     color: white;
     font-family: barcade;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 200%;
     text-align: center;
+  }
+
+  button {
+    font-family: barcade;
+  }
+
+  input[type="email"], input[type="text"] {
+    font-family: barcade;
+    color: white;
+  }
+
+  ::placeholder {
+    text-align: center;
+    font-family: barcade;
+    color: black;
+    opacity: 0.3;
   }

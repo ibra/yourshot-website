@@ -38,4 +38,57 @@ form {
       -ms-flex-align: center;
           align-items: center;
 }
+
+input[type="email"] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: #333333;
+  width: 300px;
+}
+
+input[type="text"] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: #333333;
+  width: 300px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-proof {
+  background: #73FC00;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.file-proof:hover {
+  background: #4ead00;
+  cursor: pointer;
+}
+
+.submit {
+  padding-top: 20px;
+}
+
+.send-request {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 24px;
+  background: #73FC00;
+  color: white;
+}
+
+.send-request:hover {
+  cursor: pointer;
+  background: #4ead00;
+}
 /*# sourceMappingURL=request.css.map */
