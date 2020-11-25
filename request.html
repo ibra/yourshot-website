@@ -47,37 +47,36 @@
   <div class="content">
     <h2>Request a Key</h2>
     <p>If you are a content creator or reviewer of any form</p>
-    <p> with over 10,000 monthly views on your respective platform,</p>
+    <p> with over 5000 views on your respective platform,</p>
     <p>you may be eligible for a key.</p>
     </div>
       
     <div id="request-form" class="form-request">
-      <script>
-      request.send(JSON.stringify(params));
-        }
-      </script>
-      <form>
-
+      <form
+       action="https://formspree.io/f/xwkwbrwp"
+       method="POST"
+      >
         <div class="message box-padding">
           <label> 
-           emailInput: <input type="email" placeholder="Your Email" name="_replyto" style="text-align:center" required>
+            <input type="email" placeholder="Your Email" name="_replyto" style="text-align:center" required>
           </label>
         </div>
        
         <div class="platform-url box-padding">
-          urlInput: <input type="url" placeholder="Social platform URL" id="social-url" class="social-url" name="url" style="text-align:center" required>
+          <input type="url" placeholder="Social platform URL" id="social-url" class="social-url" name="url" style="text-align:center" required>
         </div>
      
+  
         <label>
           Proof of ownership:
           <label for="proof" class="file-proof" id="proof-label" required >Choose file</label>
-          <input type="file" name="attachment" accept="image/png, image/jpeg" required>
+          <input type="file" name="upload" id="proof">
         </label>
   
           <!-- your other form fields go here -->
   
         <div class="submit">
-          <button onclick="sendMessage()" type="submit" class="send-request">Send</button>
+          <button type="submit" class="send-request">Send</button>
         </div>
       </form>
     </div>
