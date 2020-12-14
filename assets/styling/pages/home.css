@@ -32,7 +32,9 @@ html {
 
 .img-responsive {
  padding: 5px;
- width:45px; height:45px;
+ width:auto;
+ max-width: 100%; 
+ height:auto;
 }
 
 .img-responsive:hover {
@@ -87,6 +89,10 @@ html {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
+      
+      width:auto;
+      max-width: 100%; 
+      height:auto;
 }
 
 @media screen and (max-width: 1000px) {

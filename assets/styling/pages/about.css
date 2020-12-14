@@ -5,7 +5,6 @@
 #dialogue {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -17,11 +16,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
+          
+          max-width: 100%;
+          height: auto;
 }
 
 .yourshot-img {
   padding: 20px 0;
-  width: 50%;
+  width:auto;
+  max-width: 100%; 
+  height:auto;
   -webkit-transition: 0.1s linear all;
   transition: 0.1s linear all;
 }
