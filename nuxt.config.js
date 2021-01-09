@@ -18,7 +18,7 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
   router: {
-    base: "playyourshot.com"
+    base: "/playyourshot.com/"
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
