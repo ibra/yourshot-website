@@ -70,6 +70,7 @@ Take a quick look at the folder structure of this project
 ├── static
 │   └── favicon.ico
 ├── tsconfig.json
-└── yarn.lock```
+└── yarn.lock
+```
 
 Built with :heart: and Nuxt
