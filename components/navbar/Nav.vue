@@ -24,7 +24,7 @@
 <style>
 @font-face {
   font-family: barcade;
-  src: url("~assets/fonts/Baracade.woff") format("woff");
+  src: url("~assets/fonts/Baracade.ttf");
 }
 
 * {
