@@ -1,6 +1,7 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
+  mode: "spa",
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -15,7 +16,7 @@ export default {
           "YourShot is an upcoming 2D top-down shooter with RPG elements, with a unique and hand-crafted world."
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
   },
   router: {
     base: "/playyourshot.com/"
