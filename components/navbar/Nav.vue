@@ -10,10 +10,10 @@
     </div>
 
     <div class="nav-links">
-      <a href="/" draggable="false">Home</a>
-      <a href="/about" draggable="false">About</a>
-      <a href="/beta" draggable="false">Beta</a>
-      <a href="/key" draggable="false">Get Key</a>
+      <NuxtLink to="/" draggable="false">Home</NuxtLink>
+      <NuxtLink to="/about" draggable="false">About</NuxtLink>
+      <NuxtLink to="/beta" draggable="false">Beta</NuxtLink>
+      <NuxtLink to="/key" draggable="false">Get Key</NuxtLink>
       <a href="https://ibrahim.thedev.id" target="_blank" draggable="false"
         >Blog</a
       >

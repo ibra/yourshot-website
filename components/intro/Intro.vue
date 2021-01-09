@@ -7,7 +7,7 @@
         draggable="false"
     /></a>
     <h4 class="typed">Coming to Steam soon...</h4>
-    <a href="/key" draggable="false"><button>Get Key</button></a>
+    <NuxtLink to="/key" draggable="false"><button>Get Key</button></NuxtLink>
   </div>
 </template>
 
