@@ -2,8 +2,8 @@
   <div class="intro-main">
     <a href="/" draggable="false">
       <img
-        src="https://media.discordapp.net/attachments/750240410944798760/797211156883701860/ystransmall.png"
-        alt="yourshot"
+        src="https://media.discordapp.net/attachments/750240410944798760/797199990127853619/ystransmall.png"
+        alt="YourShot"
         draggable="false"
     /></a>
     <h4 class="typed">Coming to Steam soon...</h4>

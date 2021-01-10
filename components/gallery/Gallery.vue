@@ -8,8 +8,16 @@
           draggable="false"
         />
       </a>
-      <h4 class="typed">A 2D Top-Down Shooter with RPG Elements.</h4>
+    <h4 class="typed">A 2D Topdown RPG with Top Down Shooter Elements.</h4>
+
+    <h4 class="typed">Each Encounter is A Top Down Shooter Segment which allows you to use your arsenal of unique abilities and tactics to take down different kinds of enemies.</h4>
+    
+    <h4 class="typed">As Shotter tries to unravel the mystery of how he lost his memory,</h4>
+    <h4 class="typed">he also becomes aware of the dangers of the land he is is inhabiting.</h4>
+    
+    <h4 class="typed">YourShot tells the story of a corrupted land, and of a brave attempt to free it.</h4>
     </div>
+    
 
     <div class="photo-grid">
       <div
@@ -83,6 +91,8 @@
 }
 .about-head > h4 {
   color: white;
+  line-height: 2;
+  text-align: center;
 }
 .photo-grid {
   padding-top: 200px;

@@ -4,7 +4,7 @@
     <p>
       If you're a gaming related content creator or reviewer of any form, with
       over 1,500 views on your respective platform, you are eligible for a free
-      or discounted copy of YourShot.
+      copy of YourShot.
     </p>
     <div id="request-form" class="form-request">
       <form action="https://formspree.io/f/xwkwbrwp" method="POST">
