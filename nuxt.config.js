@@ -18,9 +18,6 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
   },
-  router: {
-    base: "/"
-  },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ["~/assets/fonts/Baracade.ttf", "~/assets/style/main.style.css"],
