@@ -12,10 +12,9 @@
     <div class="nav-links">
       <NuxtLink to="/" draggable="false">Home</NuxtLink>
       <NuxtLink to="/about" draggable="false">About</NuxtLink>
-      <NuxtLink to="/beta" draggable="false">Beta</NuxtLink>
+      <NuxtLink to="/demo" draggable="false">Demo</NuxtLink>
       <NuxtLink to="/key" draggable="false">Get Key</NuxtLink>
-      <a href="https://ibrahim.thedev.id" target="_blank" draggable="false"
-        >Blog</a
+      <a href="https://ibrahim.thedev.id" target="_blank" draggable="false">Blog</a
       >
     </div>
   </div>
@@ -26,11 +25,9 @@
   font-family: barcade;
   src: url("~assets/fonts/Baracade.ttf");
 }
-
 * {
   font-family: barcade;
 }
-
 .nav {
   height: 50px;
   display: flex;
@@ -39,20 +36,16 @@
   position: relative;
   justify-content: center;
 }
-
 .nav > .nav-header {
   display: flex;
 }
-
 .nav > .nav-btn {
   display: none;
 }
-
 .nav > .nav-links {
   display: flex;
   justify-content: center;
 }
-
 .nav > .nav-links > a {
   display: flex;
   padding: 17px 50px 17px 10px;
@@ -60,15 +53,12 @@
   text-decoration: none;
   color: #7f7f7f;
 }
-
 .nav > .nav-links > a:hover {
   color: white;
 }
-
 .nav > #nav-check {
   display: none;
 }
-
 @media (max-width: 700px) {
   .nav > .nav-btn {
     display: flex;
@@ -91,7 +81,7 @@
   }
   .nav > .nav-links {
     position: absolute;
-    z-index: -10;
+    z-index: 10;
     display: flex;
     width: 100%;
     background-color: #383838;

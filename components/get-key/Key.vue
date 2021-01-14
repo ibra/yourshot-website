@@ -3,8 +3,8 @@
     <h1>Want a free copy?</h1>
     <p>
       If you're a gaming related content creator or reviewer of any form, with
-      over 1,500 views on your respective platform, you are eligible for a free
-      or discounted copy of YourShot.
+      over 1,500 views on your respective platform, you may be eligible for a free
+      copy of YourShot.
     </p>
     <div id="request-form" class="form-request">
       <form action="https://formspree.io/f/xwkwbrwp" method="POST">
@@ -44,6 +44,7 @@
 .key {
   display: flex;
   align-items: center;
+  line-height: 300%;
   flex-direction: column;
   color: white;
   text-align: center;
@@ -84,9 +85,21 @@
   border: none;
   transition: 0.3s linear;
   color: white;
+  margin-bottom: 140%;
 }
 .send-request:hover {
   cursor: pointer;
   background: #8fdd4f;
+}
+@media (max-width: 500px) {
+  .key p {
+    width: 90%;
+    line-height: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .form-request input {
+    width: 80%;
+  }
 }
 </style>
