@@ -12,23 +12,34 @@
     </div>
 
     <div class="photo-grid">
-      <div
-        class="card card-tall card-wide"
-        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
-      ></div>
-      <div
-        class="card card-tall"
-        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
-      ></div>
-      <div
-        class="card"
-        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
-      ></div>
-      <div
-        class="card"
-        style="background-image:url('https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')"
-      ></div>
-
+      <div class="photos photos-top">
+        <img
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/immersion.png"
+        />
+        <img
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/Important.png"
+        />
+        <img
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/hehehehe.png"
+        />
+      </div>
+      <h1>...along with some awesome humour</h1>
+      <div class="photos">
+        <img
+          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock1.png?raw=true"
+        />
+        <img
+          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock2.png?raw=true"
+        />
+      </div>
+      <div class="photos">
+        <img
+          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock3.png?raw=true"
+        />
+        <img
+          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock4.png?raw=true"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -40,6 +51,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .about-main > .about-head {
   display: flex;
   flex-direction: column;
@@ -54,12 +66,28 @@
   color: white;
 }
 .photo-grid {
-  padding-top: 200px;
-  display: grid;
-  width: 70vw;
-  gap: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-auto-rows: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  line-height: 40px;
+}
+.photo-grid .photos {
+  display: flex;
+  justify-content: center;
+}
+.photo-grid img {
+  border-radius: 12px;
+  margin: 20px;
+  width: 27%;
+  transition: 0.1s linear;
+}
+.photo-grid img:hover {
+  transform: translateY(-5px);
+}
+.photo-grid h1 {
+  font-size: 24px;
+  margin: 40px 0;
 }
 .card {
   border-radius: 5px;
@@ -71,6 +99,17 @@
 @media (max-width: 700px) {
   .about-head > a > img {
     width: 400px;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo-grid img {
+    border-radius: 12px;
+    margin: 20px;
+    width: 60%;
+    transition: 0.1s linear;
   }
 }
 @media (max-width: 400px) {
