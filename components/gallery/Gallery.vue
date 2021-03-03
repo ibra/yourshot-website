@@ -12,10 +12,8 @@
     </div>
 
     <div class="photo-grid">
+      <h1>YourShot emphasizes on world-building and humour</h1>
       <div class="photos photos-top">
-        <img
-          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/immersion.png"
-        />
         <img
           src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/Important.png"
         />
@@ -23,7 +21,7 @@
           src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/hehehehe.png"
         />
       </div>
-      <h1>...along with some awesome humour</h1>
+      <h1>Each Encounter Allows you to take down different kinds of enemies.</h1>
       <div class="photos">
         <img
           src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock1.png?raw=true"
@@ -32,6 +30,7 @@
           src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock2.png?raw=true"
         />
       </div>
+      <h1>As you unravel the mystery of how you lost your memory,</h1>
       <div class="photos">
         <img
           src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock3.png?raw=true"
