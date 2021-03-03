@@ -15,28 +15,28 @@
       <h1>YourShot emphasizes on world-building and humour</h1>
       <div class="photos photos-top">
         <img
-          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/Important.png"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_pun_01.png"
         />
         <img
-          src="https://raw.githubusercontent.com/ibra/yourshot-website/70fe970fa68b2b8bc1b93e1bec62274a8b53c72e/src/assets/images/dialogue/hehehehe.png"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_pun_02.png"
         />
       </div>
       <h1>Each Encounter Allows you to take down different kinds of enemies.</h1>
       <div class="photos">
         <img
-          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock1.png?raw=true"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_combat_01.jpeg"
         />
         <img
-          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock2.png?raw=true"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_combat_02.jpeg"
         />
       </div>
-      <h1>As you unravel the mystery of how you lost your memory,</h1>
+      <h1>plus, theres an emphasis on worldbuilding and attention to detail</h1>
       <div class="photos">
         <img
-          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock3.png?raw=true"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_rock_02.png"
         />
         <img
-          src="https://github.com/ibra/yourshot-website/blob/70fe970fa6/src/assets/images/dialogue/rock4.png?raw=true"
+          src="https://raw.githubusercontent.com/ibra/yourshot-website/main/assets/images/dialogue/sc_rock_01.png"
         />
       </div>
     </div>
