@@ -1,6 +1,6 @@
 <template>
-  <div class="demo">
-    <h1>Demo coming soon...</h1>
+  <div class="beta">
+    <h1>Beta is coming soon...</h1>
     <h2>I have no idea when soon is.</h2>
     <p>
       (but in the mean time you can stay up to touch on the
@@ -12,7 +12,7 @@
 </template>
 
 <style>
-.demo {
+.beta {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -20,22 +20,22 @@
   color: white;
   line-height: 300%;
 }
-.demo h1 {
-  margin-top: 500px;
+.beta h1 {
+  margin-top: 100px;
 }
-.demo h2 {
+.beta h2 {
   margin-top: 70%;
   margin-bottom: 30px;
 }
-.demo p {
+.beta p {
   font-size: 12px;
 }
-.demo p a {
+.beta p a {
   text-decoration: none;
   color: #8fdd4f;
 }
 @media (max-width: 500px) {
-  .demo h2 {
+  .beta h2 {
     margin-top: 110%;
     margin-bottom: 30px;
   }
