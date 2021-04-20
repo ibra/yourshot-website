@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <Beta />
+    <Demo />
     <Footer />
   </div>
 </template>
