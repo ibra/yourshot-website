@@ -14,9 +14,6 @@
       <NuxtLink to="/about" draggable="false">About</NuxtLink>
       <NuxtLink to="/demo" draggable="false">Demo</NuxtLink>
       <NuxtLink to="/key" draggable="false">Get Key</NuxtLink>
-      <a href="https://ibrahim.thedev.id" target="_blank" draggable="false"
-        >Blog</a
-      >
     </div>
   </div>
 </template>
