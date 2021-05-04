@@ -13,7 +13,7 @@
       <NuxtLink to="/" draggable="false">Home</NuxtLink>
       <NuxtLink to="/about" draggable="false">About</NuxtLink>
       <NuxtLink to="/demo" draggable="false">Demo</NuxtLink>
-      <NuxtLink to="/key" draggable="false">Get Key</NuxtLink>
+      <NuxtLink to="/faq" draggable="false">FAQ</NuxtLink>
     </div>
   </div>
 </template>
@@ -21,7 +21,7 @@
 <style>
 @font-face {
   font-family: barcade;
-  src: url("~assets/fonts/Baracade.ttf");
+  src: url("~assets/fonts/Barcade.ttf");
 }
 
 * {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <Key />
+    <Questions />
     <Footer />
   </div>
 </template>

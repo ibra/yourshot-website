@@ -32,6 +32,7 @@
 }
 .demo p {
   font-size: 12px;
+  color: #494949;
 }
 .demo p a {
   text-decoration: none;
