@@ -13,6 +13,11 @@ export default {
         name: "description",
         content:
           "YourShot is an upcoming 2D top-down shooter with RPG elements, with a unique and hand-crafted world."
+      },
+      {
+        hid: "theme-color",
+        name: "theme-color",
+        content: "#73FC00"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
