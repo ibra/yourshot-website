@@ -14,7 +14,7 @@
     <h3>Are you working on YourShot alone?</h3>
     <p> Im doing everything other than the music, so for the most part, yes. </p>
     <h3>What tools are you using to make YourShot?</h3>
-    <p> The game engine i'm using is Unity, I use Aseprite for art, Audacity and LMMS for SFX, and my composer Peshti uses [insert DAW] for music. </p>
+    <p> The game engine i'm using is Unity, I use Aseprite for art, Audacity and LMMS for SFX, and my composer Peshti uses FL Studio for music.</p>
     <h3> Where can I contact you? </h3>
     <p> You could either contact me on <a href="https://twitter.com/minidevz">Twitter</a>, join the <a href="https://discord.gg/nCerNRh">Discord</a>, or email me at <a href="mailto:ibrahim@playyourshot.com">ibrahim@playyourshot.com</a></p>
   </div>
